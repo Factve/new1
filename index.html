@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NATHANI DEVELOPERS</title>
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <!-- JS -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+</head>
+<!-- Header Section -->
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="logo.jpg" alt="Nathani Developers" width="75px" /></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="adress.html">Contact</a></li>
+          <li><a href="https:/play.gooogle.com">App</a></li>
+        </ul>
+      </nav>
+    </div>
+  
+    <body>
+      <div class="container">
+        <header>
+          <h1>NATHANI DEVELOPERS</h1>
+          <h1>Our Division</h1>
+          <h2>MediFind Solutions</h2>
+          <h4>Sub-heading</h4>
+        </header>
+        <div class="content">
+          <p>This is the content of the page.</p>          
+          <!-- Read More Section -->
+          <p class="show-more-button" onclick="toggleReadMore()">Read More</p>
+          <p class="read-more">
+            This is the expanded description of our division, Nathani Solutions. You can provide more details about your division here.
+          </p>
+        </div>
+        <footer>
+          <p>Copyright &copy; 2023 Nathani Solutions</p>
+        </footer>
+      </div>
+      
+      <script>
+      function toggleReadMore() {
+        var readMoreSection = document.querySelector('.read-more');
+        var showMoreButton = document.querySelector('.show-more-button');
+        
+        if (readMoreSection.style.display === 'none' || readMoreSection.style.display === '') {
+          readMoreSection.style.display = 'block';
+          showMoreButton.textContent = 'Read Less';
+        } else {
+          readMoreSection.style.display = 'none';
+          showMoreButton.textContent = 'Read More';
+        }
+      }
+      </script>
+  
+      <div class="col-2">
+        <h1>
+          Your Ultimate Play<br />
+          Store Destination!
+        </h1>
+        <p>
+          Welcome to Nathani Developer, where innovation meets excellence. I'm V. Nathani, your dedicated web developer and the driving force behind this digital realm.<br> With a deep passion for creating beautiful, functional, and user-friendly websites, I take pride in my ability to transform your ideas into reality.
+        </p>
+        <a href="https://play.google.com"><img src="google play.jpg" alt="" width="290px" height="190px" /></a>      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Featured categories -->
+<div class="categories">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img width="300" height="270" src="Web Image 3.PNG">
+        <br><br><hr><br><br>
+      <div class="col-3">
+        <img width="300" height="270" src="Web Image 2.PNG">
+        <br><br><hr><br><br>
+        <img width="300" height="270" src="Web Image 1.PNG".mp4">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="small-container">
+  <h2 class="title">Our Apps</h2>
+  <div class="row">
+    <div class="col-4">
+      <a href="https://play.google.com/store/apps/details?id=video.downloader.videodownloader&hl=en-IN"><img src="free fire.jpg" alt="" /></a>
+      <a href="product_details.html">
+      </a>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <a href="https://play.google.com/store/apps/details?id=com.whatsapp&hl=en-IN"><img src="whats.jpg" alt="" /></a>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en-IN"><img src="insta.jpg" alt="" /></a>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <a href="https://play.google.com/store/apps/details?id=com.spotify.music&hl=en-IN"><img src="spotify.jpg" alt="" /></a>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Featured products -->
+<div class="small-container">
+  <h2 class="title">More Apps</h2>
+  <div class="row">
+    <div class="col-4">
+      <a href="product_details.html"><img src="free fire.jpg" alt="" /></a>
+      <a href="product_details.html">
+      </a>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <img src="whats.jpg" alt="" />
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <img src="insta.jpg" alt="" />
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <img src="spotify.jpg" alt="" />
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- offer -->
+<div class="offer">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-2">
+        <img src="Web Image 1.PNG" alt="" class="offer-img" />
+      </div>
+      <div class="col-2">
+        <p>Exclusively Available on PlayStore</p>
+        <h1>Save Status</h1>
+        <small>Join the Nathani Developers community today and redefine the way you share your stories. Download the app now and experience the future of status video sharing. Unleash your creativity, spread positivity, and make your status truly stand out with Nathani Developers!</small>
+        <br />
+        <a href="https://play.google.com" class="btn">Download Now &#8594;</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- brands -->
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-5">
+        <a href="https://play.google.com"><img src="google play.jpg" alt="https://play.google.com"/></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android.</p>
+        <div class="app-logo">
+          <a href="https://play.google.com"><img src="https://i.ibb.co/KbPTYYQ/play-store.png" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="logo.jpg" alt="" />
+        <p>
+          Our Purpose Is To Sustainably Entertain You With Our Products.
+        </p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <a href="privacy.html"><li>Privacy Policy</li></a>
+          <a href="refund.html"><li>Refund Policy</li></a>
+          <a href="terms.html"><li>Terms Of Service</li</a>
+          <a href="adress.html"><li>Nathani Developers - Adress</li></a>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <a href=""><li>Facebook</li></a>
+          <a href=""><li>Twitter</li></a>
+          <a href=""><li>Instagram</li></a>
+          <a href=""><li>YouTube</li></a>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">Copyright &copy; 2023 - Nathani Developers</p>
+  </div>
+</div>
+
+<!-- js for toggle menu -->
+<script>
+  var MenuItems = document.getElementById('MenuItems');
+  MenuItems.style.maxHeight = '0px';
+
+  function menutoggle() {
+    if (MenuItems.style.maxHeight == '0px') {
+      MenuItems.style.maxHeight = '200px';
+    } else {
+      MenuItems.style.maxHeight = '0px';
+    }
+  }
+</script>
